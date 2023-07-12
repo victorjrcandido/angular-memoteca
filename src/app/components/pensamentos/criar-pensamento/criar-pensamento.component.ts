@@ -19,8 +19,14 @@ export class CriarPensamentoComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  criarPensamento() {
-    console.log('aaa');
+  criarPensamento(event: Event) {
+    event.preventDefault();
+    console.log('criar');
+  }
+
+  cancelar(event: Event) {
+    event.preventDefault();
+    console.log('cancelar');
   }
 
 }
