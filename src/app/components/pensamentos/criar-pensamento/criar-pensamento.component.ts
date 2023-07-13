@@ -21,12 +21,10 @@ export class CriarPensamentoComponent implements OnInit {
 
   criarPensamento(event: Event) {
     event.preventDefault();
-    alert('criar');
   }
 
   cancelar(event: Event) {
     event.preventDefault();
-    alert('cancelar');
   }
 
 }
