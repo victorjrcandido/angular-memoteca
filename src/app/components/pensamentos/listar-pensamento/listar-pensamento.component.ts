@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Pensamento } from '../pensamento';
 
 @Component({
   selector: 'app-listar-pensamento',
@@ -7,18 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListarPensamentoComponent implements OnInit {
 
-  listaPensamentos = [
-    {
-      conteudo: 'Testing componetsTesting componets2Testing componets2Testing compTesting componets2Testing componets2Testing componets2Testing ',
-      autoria: 'Nay',
-      modelo: 'modelo3'
-    },
-    {
-      conteudo: 'Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2',
-      autoria: 'Nay',
-      modelo: 'modelo3'
-    },
-  ];
+  listaPensamentos: Pensamento[] = [];
 
   constructor() { }
 
