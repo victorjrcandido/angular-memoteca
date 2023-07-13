@@ -17,4 +17,12 @@ export class PensamentoComponent implements OnInit {
     autoria: 'Nay',
     modelo: 'modelo3'
   }
+
+  larguraPensamento(): string {
+    if (this.pensamento.conteudo.length >= 256) {
+      return 'pensamento-g'
+    } else {
+      return 'pensamento-p'
+    }
+  }
 }

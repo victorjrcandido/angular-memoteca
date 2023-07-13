@@ -9,12 +9,12 @@ export class ListarPensamentoComponent implements OnInit {
 
   listaPensamentos = [
     {
-      conteudo: 'Testing componets',
+      conteudo: 'Testing componetsTesting componets2Testing componets2Testing compTesting componets2Testing componets2Testing componets2Testing ',
       autoria: 'Nay',
       modelo: 'modelo3'
     },
     {
-      conteudo: 'Testing componets2',
+      conteudo: 'Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2Testing componets2',
       autoria: 'Nay',
       modelo: 'modelo3'
     },
