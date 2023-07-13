@@ -11,7 +11,7 @@ export class CriarPensamentoComponent implements OnInit {
     id: '1',
     conteudo: 'Aprendendo angular',
     autoria: 'dev',
-    modelo: ''
+    modelo: 'modelo1'
   }
 
   constructor() { }
@@ -21,12 +21,12 @@ export class CriarPensamentoComponent implements OnInit {
 
   criarPensamento(event: Event) {
     event.preventDefault();
-    console.log('criar');
+    alert('criar');
   }
 
   cancelar(event: Event) {
     event.preventDefault();
-    console.log('cancelar');
+    alert('cancelar');
   }
 
 }
