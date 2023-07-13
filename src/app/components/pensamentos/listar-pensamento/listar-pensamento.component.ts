@@ -19,4 +19,3 @@ export class ListarPensamentoComponent implements OnInit {
     })
   }
 }
-
