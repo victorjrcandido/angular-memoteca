@@ -1,25 +1,22 @@
 {
-    "pensamentos": [
-        {
-            "id": 1,
-            "conteudo": "Gentalha gentalha",
-            "autoria": "kiko",
-            "modelo": "modelo1"
-            
-        },
-        {
-            "id": 2,
-            "conteudo": "Ninguem tem paciencia comigo",
-            "autoria": "Chaves",
-            "modelo": "modelo2"
-            
-        },
-        {
-            "id": 3,
-            "conteudo": "So nao te dou outra porque",
-            "autoria": "Sr Madruga",
-            "modelo": "modelo3"
-            
-        }
-    ]
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Gentalha gentalha",
+      "autoria": "Kiko",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Ninguem tem paciencia comigo",
+      "autoria": "Chaves",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "So nao te dou outra porque",
+      "autoria": "Sr Madruga",
+      "modelo": "modelo3"
+    }
+  ]
 }
